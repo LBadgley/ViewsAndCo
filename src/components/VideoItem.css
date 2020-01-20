@@ -1,0 +1,18 @@
+.video-item {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: between;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 200px;
+  padding-left: 1em;
+  padding-right: 2.5em;
+}
+
+.headerDiv {
+  border-box: 3px solid red;
+}
+
