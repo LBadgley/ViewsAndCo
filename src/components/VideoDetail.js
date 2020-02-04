@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const VideoDetail = ({ video }) => {
   if (!video) {
     return <span>Loading... please wait</span>
